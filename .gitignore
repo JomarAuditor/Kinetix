@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+storage/cache/*
+storage/logs/*
+storage/*.db
+storage/local_settings.json
+!storage/cache/.gitkeep
+!storage/logs/.gitkeep
